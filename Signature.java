@@ -32,7 +32,7 @@ public class Signature {
 
         try {
 
-            InputStream keystoreStream = new FileInputStream("C://UserTemp//keystore//tpp.jck");
+            InputStream keystoreStream = new FileInputStream("C://tpp.jck");
             KeyStore keystore = KeyStore.getInstance("JCEKS");
             keystore.load(keystoreStream, keystorePass.toCharArray());
 
